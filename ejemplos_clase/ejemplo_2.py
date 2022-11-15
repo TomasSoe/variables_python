@@ -30,7 +30,7 @@ print('El resultado de la suma es', suma)
 # separadas por un espacio
 
 mensaje = texto_1 + ' ' + texto_2
-print('El resultado de la suma con espacio es', suma)
+print('El resultado de la suma con espacio es', mensaje)
 print(mensaje)
 
 # Duplicando el texto

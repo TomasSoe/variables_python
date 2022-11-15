@@ -64,3 +64,27 @@ Alumno:
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+# Para este ejercicio logre 2 formas distintas de llegar al mismo resultado
+# Primera forma:
+ 
+nombre_completo = str(input('Ingrese su nombre y apellido:'))
+
+print('Su nombre:',nombre_completo, 
+      '\nSu nombre en minusculas:', str.lower(nombre_completo), 
+      '\nSu nombre en mayusculas:', str.upper(nombre_completo), 
+      '\nSu nombre solo con la primer letra mayuscula:', str.capitalize(nombre_completo))
+
+# Segunda forma:
+
+nombre_completo = str(input('Ingrese su nombre y apellido:'))
+print('Su nombre:',nombre_completo)
+
+nombre_lower = str.lower(nombre_completo)
+print('Su nombre en minusculas:',nombre_lower)
+
+nombre_upper = str.upper(nombre_completo)
+print('Su nombre en mayusculas:', nombre_upper)
+
+nombre_capitalize = str.capitalize(nombre_completo)
+print('Su nombre solo con la primer letra mayuscula:', nombre_capitalize)
